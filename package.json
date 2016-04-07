@@ -1,0 +1,75 @@
+{
+  "name": "bower-store",
+  "description": "Use bower.json as a config store.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/bower-store",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/bower-store",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/bower-store/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "utils.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "cache-base": "^0.8.2",
+    "delete": "^0.3.0",
+    "kind-of": "^3.0.2",
+    "lazy-cache": "^1.0.3",
+    "union-value": "^0.2.3",
+    "write-json": "^0.2.2"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.7",
+    "mocha": "^2.4.5"
+  },
+  "keywords": [
+    "bower",
+    "bower-json",
+    "bower.json",
+    "config",
+    "data",
+    "get",
+    "json",
+    "set",
+    "store",
+    "update"
+  ],
+  "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "data-store",
+        "expand-pkg",
+        "find-pkg",
+        "normalize-pkg",
+        "pkg-store",
+        "sync-pkg"
+      ]
+    },
+    "reflinks": [
+      "cache-base",
+      "verb"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
